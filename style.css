@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(6, 8, 51);
+    background-image: url(./1.farid.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+header {
+    text-align: center;
+    background-color: transparent;
+    color: aqua;
+    padding: 18px;
+    border-top-right-radius: 150px;
+    border-top-left-radius: 150px;
+    border-top: rgb(9, 231, 243) solid;
+    font-family: "Audiowide", sans-serif;
+}
+footer {
+    text-align: center;
+    background-color: rgb(20, 198, 208);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: bisque;
+    padding: 10px;
+    font-family: "Audiowide", sans-serif;
+}
+img {
+    height: 350px;
+    width: 250px;
+    border-style: dotted;
+    border-width: 1px;
+    border-color: rgb(255, 116, 3);
+    border-radius: 7px;
+    padding: 10px;
+    overflow: hidden;
+}
+img:hover {
+    height: 380px;
+    width: 270px;
+  }
+#container {
+    background-color: rgba(112, 106, 71, 0.453);
+}
+nav {
+    margin: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    border-top: rgb(20, 198, 208) solid;
+    padding: 20px;
+    background-color: rgb(121, 139, 135);
+    border-radius: 20px;
+    text-align: center;
+    display: grid;
+}
+label {
+    color: rgb(119, 248, 255);
+    font-family: monospace;
+}
+#for-list {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: .45rem;
+    list-style: none;
+    text-align: center;
+    color: aqua;
+}
+#search {
+    display: flex;
+    flex-direction: column;
+    gap: .15rem;
+   border-radius: solid;
+   background-color: rgb(146, 221, 225);
+   font-style: italic;
+   color: black;
+}
+li {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: .45rem;
+    text-align: center;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet" href="style.css">
+    <script src="./movies.js"></script>
+    <script defer src="./film.js"></script>
+    <title>Project Film</title>
+</head>
+
+<body>
+    <header>
+        <h1>The Films Project</h1>
+    </header>
+    
+    <nav>
+        <input type="text" id="search" placeholder="Search .." >
+
+        <input type="radio" id="all-movie" name="film-filter" value="all-movie">
+        <label for="all-movie">Latest Movie, 2014 or Newer</label>
+
+        <input type="radio" id="avenger" name="film-filter" value="avenger">
+        <label for="avenger">Avenger Movies</label>
+
+        <input type="radio" id="x-men" name="film-filter" value="x-men">
+        <label for="x-men">X-Men Movies</label>
+
+        <input type="radio" id="princess" name="film-filter" value="princess">
+        <label for="princess">Princess Movies</label>
+
+        <input type="radio" id="batman" name="film-filter" value="batman">
+        <label for="batman">Batman Movies</label>
+    </nav>
+
+    <div id="container">
+        <ul id="for-list"></ul>
+    </div>
+
+    <footer>
+       <p>©️ Copyright - Farid Attamimi - 2022</p> 
+    </footer>
+</body>
+</html>
